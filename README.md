@@ -1,2 +1,2 @@
 # practice-on-nowcoder
-practice
+practice some coding test on the website:https://www.nowcoder.com/
