@@ -16,5 +16,3 @@ Input.
 [{1,2},{1,4,5},{6}]
 Return value.
 {1,1,2,4,5,6}
-
-Translated with www.DeepL.com/Translator (free version)
