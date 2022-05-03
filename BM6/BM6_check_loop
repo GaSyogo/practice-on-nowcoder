@@ -1,0 +1,33 @@
+Determines if there is a loop in the given link. Returns true if there is a loop, otherwise returns false.
+
+
+Data range: length of the link 0≤n≤10000, the value of any node in the link satisfies ∣val∣<=100000
+Requirements: space complexity O(1), time complexity O(n)
+
+The input is divided into two parts, the first part is a link, the second part represents whether there is a loop, 
+and then the head node of the composition is passed into the function. -1 represents no loop, the other numbers represent a loop, 
+these parameters are explained only to facilitate the reader to self-test debugging. 
+The actual input in the programming is the head node of the link.
+
+input：
+{3,2,0,-4},1
+return：
+true
+introduction：
+第一部分{3,2,0,-4}代表一个链表，第二部分的1表示，-4到位置1（注：头结点为位置0），即-4->2存在一个链接，组成传入的head为一个带环的链表，返回true  
+The first part {3,2,0,-4} represents a link, the second part of 1 means that -4 to position 1 
+(note: the head node is position 0), that is, -4->2 there is a joint, 
+the composition of the incoming head is a chain table with a loop, return true  
+
+Input.
+{1},-1
+Return:
+false
+Description.
+The first part {1} represents a link, -1 represents no-loop, 
+composed by passing in head as a single link with no-loop, returns false
+
+Input.
+{-1,-7,7,-4,19,6,-9,-5,-2,-5},6
+Return:
+true
